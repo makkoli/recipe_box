@@ -1,0 +1,78 @@
+@import 'https://fonts.googleapis.com/css?family=Lora';
+body {
+  margin: 30px 0px 30px 0px; }
+
+.recipe-container {
+  margin: 0 auto;
+  width: 75%;
+  height: auto;
+  padding: 30px;
+  background: #eee;
+  border-radius: 20px;
+  border: 1px solid #dcdcdc; }
+
+.recipe-link {
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  background: #ADD8E6;
+  margin-top: 10px;
+  border-top: 1px solid blue;
+  border-left: 1px solid blue;
+  border-right: 1px solid blue;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding-left: 5px;
+  font-size: large;
+  overflow: hidden; }
+  .recipe-link button {
+    margin: 0;
+    float: right; }
+  .recipe-link span {
+    cursor: pointer; }
+
+.ingredients {
+  width: 100%;
+  height: auto;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background: #fff; }
+  .ingredients h4 {
+    text-align: center;
+    margin-bottom: 30px; }
+  .ingredients ul li:hover {
+    background: #ADD8E6; }
+  .ingredients button {
+    margin-top: 10px;
+    margin-right: 10px; }
+
+.add-recipe {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border-top: 3px solid black;
+  padding-top: 20px; }
+  .add-recipe input[type="text"] {
+    margin-bottom: 10px;
+    width: 100%; }
+  .add-recipe textarea {
+    width: 100%;
+    height: 120px;
+    resize: none; }
+  .add-recipe button {
+    margin-right: 10px; }
+
+h1 {
+  margin: 0px 0px 20px 0px;
+  text-align: right;
+  font-family: "Lora", serif; }
+
+button {
+  margin-top: 30px; }
+
+/*# sourceMappingURL=style.css.map */
